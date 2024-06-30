@@ -78,11 +78,11 @@ h5 { font-size: 20px; }
 /* Img-1-phone */
 .Img-1-phone { display: none; }
 /* Img-2 */
-.Img-2 { position: absolute; top: 1117px; left: 8%; width: 350px; z-index: 1;}
+.Img-2 { position: absolute; top: 1097px; left: 8%; width: 350px; z-index: 1;}
 /* Img-2-phone */
 .Img-2-phone { display: none; }
 /* Img-3 */
-.Img-3 { position: absolute; left: -1000px; bottom: -100px; z-index: 1; width: 700px; }
+.Img-3 { position: absolute; left: -990px; bottom: -100px; z-index: 1; width: 700px; }
 /* Img-3-phone */
 .Img-3-phone { display: none; }
 
