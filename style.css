@@ -5,7 +5,7 @@ p { color: hsl(240, 15%, 77%); }
 a { text-decoration: none; color: white;}
 li { list-style: none;  }
 h1 { font-size: 70px;  }
-h2 { color: white; }
+h2 { cursor: pointer; font-size: 30px; color: white; }
 h3 { font-size: 30px; text-align: center; padding-bottom: 50px; color: hsl(236, 24%, 36%); }
 h4 { font-size: 20px; color: hsl(236, 27%, 35%); }
 h5 { font-size: 20px; }
@@ -26,7 +26,7 @@ h5 { font-size: 20px; }
 /* Blog */
 .Blog { display: flex; gap: 5%; width: 100%; }
 /* Blogr-1*/
-.Blogr-1 { display: flex; gap: 69%; width: 100%; padding-top: 5px; }
+.Blogr-1 { display: flex; gap: 69%; width: 100%; padding-top: 10px; }
 /* Nav-1 */
 .Nav-1 { display: flex; gap: 20%; }
 /* Nav-1_5 */
@@ -52,7 +52,7 @@ h5 { font-size: 20px; }
 /* Drop-1:hover  .Dropdown-1*/
 .Drop-1:hover .Dropdown-1 { display: flex; }
 
-/* Dropdown-2 */
+/* Dropdown-2 */                          
 .Dropdown-2 { display: none; flex-direction: column; position: absolute; background-color: white; padding: 20px; border-radius: 15px; margin: 10px 0 0 -17px; }
 /* Dropdown-2 a */
 .Dropdown-2 a { color: rgb(106, 100, 100); padding: 5px 5px 5px 0; margin: auto; }
@@ -78,11 +78,11 @@ h5 { font-size: 20px; }
 /* Img-1-phone */
 .Img-1-phone { display: none; }
 /* Img-2 */
-.Img-2 { position: absolute; top: 1094px; left: 8%; width: 350px; z-index: 1;}
+.Img-2 { position: absolute; top: 1095px; left: 8%; width: 350px; z-index: 1;}
 /* Img-2-phone */
 .Img-2-phone { display: none; }
 /* Img-3 */
-.Img-3 { position: absolute; left: -988px; bottom: -100px; z-index: 1; width: 700px; }
+.Img-3 { position: absolute; left: -1000px; bottom: -100px; z-index: 1; width: 700px; }
 /* Img-3-phone */
 .Img-3-phone { display: none; }
 
@@ -106,7 +106,7 @@ main { padding: 10%; }
 footer { overflow-x: hidden; background-color: hsl(240, 10%, 16%); border-top-right-radius: 60px;  color: white; padding: 50px 10% 80px;}
 
 /* Foot */
-.Foot { position: relative; display:flex; gap: 20%; text-align: center;}
+.Foot { position: relative; display:flex; gap: 20%; padding-top: 5px; text-align: center;}
 /* Foot li */
 .Foot li { padding-bottom: 10px; }
 /* Foot a */
@@ -166,7 +166,7 @@ footer { overflow-x: hidden; background-color: hsl(240, 10%, 16%); border-top-ri
      /* h1 */
      h1 { font-size: 60px; }
      /* h3 */
-     h3 {position: relative; left: 15px; font-size: 25px;  }
+     h3 {  }
      /* Nav-1 */
      .Nav-1 { display: flex; gap: 20%; }
      /* Main */
